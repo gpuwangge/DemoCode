@@ -1,2 +1,2 @@
 # DemoCode
-Show some codes for interview
+Show some code pieces
