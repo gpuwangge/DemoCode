@@ -1,5 +1,6 @@
 //This code shows a popular algorithm: cholesky decomposition. 
 //The language is cuda C. It is a parallel computing language, the code runs in GPU.
+//More details of this algorithm can be found in my blog(Chinese): http://blog.csdn.net/wangxiaojun911/article/details/7030964
 
 __global__ void Core(float *R, int k, int m) {
 	int tid = threadIdx.x + blockIdx.x * blockDim.x;
